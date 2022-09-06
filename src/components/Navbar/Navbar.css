@@ -1,0 +1,61 @@
+.hero{
+    width: 100%;
+    background-color: rgb(17 24 39);
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+.navbar-menu{
+    display: flex;
+    flex-basis: 80%;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+.navbar-list{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 0;
+    font-weight: 600;
+    color: white;
+    list-style-type: none;
+    align-items: baseline;
+    flex-flow: wrap;
+    flex-basis: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #256D85;
+    transition: .5s;
+    text-decoration: underline;
+}
+.logo{
+    align-self: center;
+    width: 110px;
+    height: 50px;
+    padding: 0;
+}
+
+button{
+    justify-self: end;
+    background-color: #256D85;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: #2E8B57;
+    transition: .5s;
+}
