@@ -4,5 +4,8 @@ export default {
         about: "Acerca de",
         contact: "Contacto",
         myCv: "Mi CV",
-    }
+    },
+    body:{
+        title: "Hola, Yo soy",
+    },
 };
