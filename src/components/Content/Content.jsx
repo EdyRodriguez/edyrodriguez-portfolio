@@ -1,8 +1,8 @@
 import './Content.css';
 import useTranslation from "../customHooks/translations";
-import About from "./Sections/About/About";
-import Projects from "./Sections/Projects/Projects";
-import Skills from "./Sections/Skills/Skills";
+import About from "./sections/About/About";
+import Projects from "./sections/Projects/Projects";
+import Skills from "./sections/Skills/Skills";
 import Socials from "./Socials/Socials";
 
 export default function Content() {
