@@ -5,7 +5,8 @@ export default {
         contact: "Contact",
         myCv: "My CV",
     },
-    body:{
+    about:{
         title: "Hello, I'm",
+        description: "I'm a software developer, I love to learn new things and I'm always looking for new challenges.",
     },
 };

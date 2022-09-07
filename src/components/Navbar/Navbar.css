@@ -1,6 +1,6 @@
 .hero{
     width: 100%;
-    background-color: #371B58;
+    background-color: var(--color-bg-nav);
     position: sticky;
     display: flex;
     justify-content: space-around;
@@ -57,14 +57,13 @@ a:hover{
 }
 .languages {
     background-color: var(--color-button-bg-hover);
-    color: #FAD000;
     text-decoration: underline;
     transition: .5s;
 }
 
 button{
     justify-self: end;
-    background-color: var(--color-button-bg);
+    background-color: var(--color-button-navbar-bg);
     border: none;
     border-radius: 20px;
     padding: 10px;
@@ -77,7 +76,39 @@ button{
 }
 button:hover{
     background-color: var(--color-button-bg-hover);
-    color: #FAD000;
+    color: var(	--color-text-links-hover);
     text-decoration: underline;
     transition: .5s;
 }
+
+@media (max-width: 768px) {
+    .hero{
+        display: flex;
+        width: 100%;
+        justify-content: center ;
+    }
+    .Navbar{
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+    }
+    .navbar-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        flex-flow: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .navbar-list{
+        display: none;
+    }
+    .logo{
+        width: 90px;
+        height: 40px;
+    }
+}
+    
+
