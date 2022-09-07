@@ -1,7 +1,7 @@
 import './Content.css';
 import useTranslation from "../customHooks/translations";
 import About from "./sections/About/About";
-import Projects from "./sections/Project.jsx/Projects";
+import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 
 export default function Content() {

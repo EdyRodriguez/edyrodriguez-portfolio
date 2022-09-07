@@ -6,19 +6,19 @@
     width: 100%;
     align-items: center;
     margin: 0 auto;
-    padding: 2rem;
     justify-content: space-between;
 }
 
 h1 {
     color: var(--color-text-light);
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     
 }
 
 .about-container{
     display: flex;
+    font-size: 1.5rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -33,8 +33,7 @@ h1 {
         width: 100%;
         justify-content: center;
         align-items: center;
-        position: initial;   
-    }
+        }
     .About{
         position: relative;
         padding: 0;

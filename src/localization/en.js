@@ -1,12 +1,15 @@
 export default {
     navbar:{
-        home: "Home",
         about: "About",
         contact: "Contact",
         myCv: "My CV",
     },
     about:{
-        title: "Hello, I'm",
-        description: "I'm a software developer, I love to learn new things and I'm always looking for new challenges.",
+        title: "Hello, I'm Edgar Rodriguez",
+        subtitle: "full stack developer",
+        description: `I'm a full stack developer with 18 months of experience. 
+        I'm currently working with React, Node, Angular and Firebase. 
+        I'm always interested in learning new technologies and frameworks.`,
+        button: "Let's talk",
     },
 };

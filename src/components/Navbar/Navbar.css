@@ -17,7 +17,7 @@
 .navbar-list{
     display: flex;
     justify-content: end;
-    gap: 10px;
+    gap: 15px;
     flex-grow: 1;
     font-size: 20px;
     padding: 0;
@@ -27,12 +27,12 @@
     flex-flow: wrap;
     flex-basis: auto;
 }
-a{
+.nav-link{
     text-decoration: none;
     color: var(--color-text-links); 
 
 }
-a:hover{
+.nav-link:hover{
     color: var(--color-general-hover);
     transition: .5s;
     text-decoration: underline;
@@ -43,25 +43,34 @@ a:hover{
     height: 50px;
     padding: 0;
 }
-
-.language-selector {
+.languages-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: var(--color-text-links);
-    margin: 0;
-    align-content: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    border-left: 1px solid var(--color-text-links);
+
+}
+.language{
     font-size: 20px;
-    align-self: center;
-    padding: 5px;
-    background-color: var(--color-button-bg);
-    border-radius: 20px;
-
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--color-text-links);
+    cursor: pointer;
 }
-.languages {
-    background-color: var(--color-button-bg-hover);
-    text-decoration: underline;
+.active{
+    color: var(--color-general-hover);
+    font-weight: bold;
     transition: .5s;
+    text-decoration: underline;
 }
 
-button{
+.button{
     justify-self: end;
     background-color: var(--color-button-navbar-bg);
     border: none;
@@ -74,7 +83,7 @@ button{
     cursor: pointer;
     outline: none;
 }
-button:hover{
+.button:hover{
     background-color: var(--color-button-bg-hover);
     color: var(	--color-text-links-hover);
     text-decoration: underline;
@@ -85,10 +94,11 @@ button:hover{
     .hero{
         display: flex;
         width: 100%;
+        position: relative;
         justify-content: center ;
     }
+
     .Navbar{
-        position: relative;
         margin: 0 auto;
         display: flex;
     }
@@ -96,18 +106,22 @@ button:hover{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding: 10px;
-        flex-flow: wrap;
-        gap: 10px;
+        flex-flow: nowrap;
         width: 100%;
     }
 
     .navbar-list{
         display: none;
     }
+    .languages-list{
+        flex-basis: 100px;
+        
+    }
     .logo{
-        width: 90px;
-        height: 40px;
+        flex-basis: 90px;
+    }
+    .button{
+        flex-basis: 85px
     }
 }
     

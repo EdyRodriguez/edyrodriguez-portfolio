@@ -11,7 +11,7 @@ export default function About() {
             <div className="about-container">
             <h1>{translation.about.title}</h1>
             <p>{translation.about.description}</p>
-            <button>Contact Me</button>
+            <button>{translation.about.button}</button>
             </div>
             <img src={photo} className='photo' alt="picture" />
         </section>

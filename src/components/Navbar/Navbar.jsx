@@ -5,33 +5,19 @@ import useTranslation from "../customHooks/translations";
 import LogoEdy from "../../assets/LogoEdy.png";
 import CV from "../../assets/CV Edgar Rodriguez [Eng].pdf";
 
-const useHovering = () => {
-  const [hovering, setHovering] = useState(false);
-  const onMouseOver = () => setHovering(true);
-  const onMouseOut = () => setHovering(false);
-  return [hovering, onMouseOver, onMouseOut];
-};
 
 export default function Navbar() {
-  const [hovering, onMouseOver, onMouseOut] = useHovering();
   const { language, changeLanguage } = useLanguageContext();
+  const [open, setOpen] = useState(false);
   const translation = useTranslation();
   const downloadCV = () => {
     window.open(CV);
   };
-  const handleMouseOver = () => {
-    console.log("Mouse over");
-    onMouseOver();
-  };
-  const handleMouseOut = () => {
-    console.log("Mouse out");
-    onMouseOut();
-  };
-
+  
   const languageOptions = [
-    { value: "en", label: "English" },
-    { value: "es", label: "Español" },
-    { value: "fr", label: "Français" },
+    { value: "en", label: "En" },
+    { value: "es", label: "Es" },
+    { value: "fr", label: "Fr" },
   ];
 
   return (
@@ -41,34 +27,25 @@ export default function Navbar() {
           <img src={LogoEdy} className="logo" alt="" />
           <ul className="navbar-list">
             <li>
-              <a href="#">{translation.navbar.home}</a>
+              <a className="nav-link" href="#About">{translation.navbar.about}</a>
             </li>
             <li>
-              <a href="#">{translation.navbar.about}</a>
-            </li>
-            <li>
-              <a href="#">{translation.navbar.contact}</a>
+              <a className="nav-link" href="#Contact">{translation.navbar.contact}</a>
             </li>
             <li></li>
           </ul>
-          <select
-            value={language}
-            onChange={(e) => changeLanguage(e.target.value)}
-            className="language-selector"
-          >
-            {languageOptions.map((language) => (
-              <option
-                key={language.value}
-                value={language.value}
-                onMouseOver={handleMouseOver}
-                onMouseOut={handleMouseOut}
-                className={hovering ? "languages" : ""}
+          <ul className="languages-list" onClick={() => setOpen(!open)}>
+            {languageOptions.map((lang) => (
+              <li
+                key={lang.value}
+                className={lang.value === language ? "active language" : "language"}
+                onClick={() => changeLanguage(lang.value)}
               >
-                {language.label}
-              </option>
+                {lang.label}
+              </li>
             ))}
-          </select>
-          <button type="button" onClick={downloadCV}>
+          </ul>
+          <button type="button" className="button" onClick={downloadCV}>
             {translation.navbar.myCv}
           </button>
         </div>
