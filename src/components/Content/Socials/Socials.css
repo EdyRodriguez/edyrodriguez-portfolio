@@ -1,0 +1,31 @@
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    bottom: 3rem;
+    gap: .5rem;
+    height: fit-content;
+    margin-top: 20px;
+    border-radius: 150px;
+    background-color: var(--color-socials-background);
+    padding: 1.5rem 1rem 1.5rem 1rem; 
+}
+.social-links{
+    color: var( --color-general-hover);
+    font-size: 2rem;
+}
+.social-links:hover{
+    color: var(--color-button-bg-hover);
+    transition: .5s;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .socials{
+        display: none;
+    }
+}
+    

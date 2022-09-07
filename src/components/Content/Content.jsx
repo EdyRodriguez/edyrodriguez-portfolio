@@ -1,8 +1,9 @@
 import './Content.css';
 import useTranslation from "../customHooks/translations";
-import About from "./sections/About/About";
-import Projects from "./sections/Projects/Projects";
-import Skills from "./sections/Skills/Skills";
+import About from "./Sections/About/About";
+import Projects from "./Sections/Projects/Projects";
+import Skills from "./Sections/Skills/Skills";
+import Socials from "./Socials/Socials";
 
 export default function Content() {
     const translation = useTranslation();
@@ -11,6 +12,7 @@ export default function Content() {
             <About />
             <Skills />
             <Projects />
+            <Socials/>
         </div>
     );
 }

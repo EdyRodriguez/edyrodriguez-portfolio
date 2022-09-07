@@ -9,7 +9,7 @@ export default function About() {
         <section className="About">
             
             <div className="about-container">
-            <h1>{translation.about.title}</h1>
+            <h1 className="title">{translation.about.title}</h1>
             <p>{translation.about.description}</p>
             <button>{translation.about.button}</button>
             </div>
