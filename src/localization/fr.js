@@ -1,11 +1,15 @@
 export default {
     navbar:{
-        home: "Home",
-        about: "About",
-        contact: "Contact",
-        myCv: "Mon CV",
+        about: " Á propos de",
+        contact: "Contactez",
+        myCv: "CV",
     },
-    body:{
-        title: "Salut, Je suis",
+    about:{
+        title: "Bonjour, Je suis Edgar Rodriguez",
+        subtitle: "Développeur full stack",
+        description: `Je suis un développeur full stack avec 18 mois d'expérience. 
+            Je travaille actuellement avec React, Node, Angular et Firebase. 
+            Je suis toujours capable d'apprendre de nouvelles technologies et de nouveaux frameworks.`,
+        button: "Let's talk",
     },
 };

@@ -70,7 +70,7 @@
     text-decoration: underline;
 }
 
-.button{
+.button-navbar{
     justify-self: end;
     background-color: var(--color-button-navbar-bg);
     border: none;
@@ -83,7 +83,7 @@
     cursor: pointer;
     outline: none;
 }
-.button:hover{
+.button-navbar:hover{
     background-color: var(--color-button-bg-hover);
     color: var(	--color-text-links-hover);
     text-decoration: underline;
@@ -120,7 +120,7 @@
     .logo{
         flex-basis: 90px;
     }
-    .button{
+    .button-navbar{
         flex-basis: 85px
     }
 }

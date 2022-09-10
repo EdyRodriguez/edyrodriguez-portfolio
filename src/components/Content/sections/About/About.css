@@ -26,6 +26,26 @@
     align-items: flex-start;
     width: 50%;
 }
+.button{
+    justify-self: end;
+    background-color: var(--color-button-navbar-bg);
+    border: none;
+    border-radius: 20px;
+    color: var(--color-text-links);
+    font-size: 20px;
+    font-weight: 600;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    
+    outline: none;
+}
+.button:hover{
+    background-color: var(--color-button-bg-hover);
+    color: var(	--color-text-links-hover);
+    text-decoration: underline;
+    transition: .5s;
+}
 
 .photo{
     border-radius: 150px;
@@ -50,6 +70,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .button{
+        padding: 5px;
+        margin: 0;
+        font-size: 20px;	
+        max-height: 40px;
+        
+
     }
     .photo{
         border-radius: 150px;

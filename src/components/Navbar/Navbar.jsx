@@ -45,7 +45,7 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <button type="button" className="button" onClick={downloadCV}>
+          <button type="button" className="button-navbar" onClick={downloadCV}>
             {translation.navbar.myCv}
           </button>
         </div>

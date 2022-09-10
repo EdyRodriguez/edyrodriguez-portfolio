@@ -4,7 +4,7 @@ export default function projects() {
     const translation = useTranslation();
     return (
         <section className="projects">
-            <h1>{translation.body.title}</h1>
+            <h1>Proyectos</h1>
         </section>
     );
 }
