@@ -5,10 +5,17 @@
     flex-direction: row;
     width: 100%;
     align-items: center;
-    margin: 0 auto;
-    justify-content: space-between;
-    
+    margin: 0 ;
+    justify-content: space-around;
     line-height: 1.5;
+}
+.photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+    width: 70%;
 }
 
 .title{
@@ -67,6 +74,7 @@
         position: relative;
         padding: 0;
         line-height: 1.3;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -76,15 +84,17 @@
         margin: 0;
         font-size: 20px;	
         max-height: 40px;
+    }
+    .paragraph{
+        width: 90%;
         
-
     }
     .photo{
         border-radius: 150px;
         margin-bottom: 1rem;
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 60%;
     }
     
  }

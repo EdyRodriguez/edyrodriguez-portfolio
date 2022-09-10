@@ -12,4 +12,9 @@ export default {
             Je suis toujours capable d'apprendre de nouvelles technologies et de nouveaux frameworks.`,
         button: "Let's talk",
     },
+    skills:{
+        title: "Skills",
+        subtitle: "",
+
+    },
 };

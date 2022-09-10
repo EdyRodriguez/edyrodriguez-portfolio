@@ -12,4 +12,9 @@ export default {
         I'm able to learn new technologies and frameworks.`,
         button: "Let's talk",
     },
+    skills:{
+        title: "Skills",
+        subtitle: "",
+
+    },
 };

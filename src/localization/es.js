@@ -12,4 +12,9 @@ export default {
         Siempre estoy dispuesto a aprender nuevas tecnologías y frameworks.`,
         button: "Hablemos!",
     },
+    skills:{
+        title: "Habilidades",
+        subtitle: "",
+
+    },
 };
