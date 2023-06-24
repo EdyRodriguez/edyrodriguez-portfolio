@@ -108,6 +108,11 @@
 }
 
 @media (max-width: 815px) {
+    .project-image{
+        max-width: 100%;
+        width: 100%;
+    }
+
     .project-card{
         min-height: 250px;
     }
@@ -200,4 +205,10 @@
         height: 1rem;
     }
 
+}
+
+@media (min-width: 1920px) {
+    .project-image{
+       width: 600px;
+    }
 }
