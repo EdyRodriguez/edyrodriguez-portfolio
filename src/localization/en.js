@@ -7,14 +7,31 @@ export default {
     about:{
         title: "Hello, I'm Edgar Rodriguez",
         subtitle: "full stack developer",
-        description: `I'm a full stack developer with 18 months of experience. 
-        I'm currently working with React, Node, Angular and Firebase. 
-        I'm able to learn new technologies and frameworks.`,
-        button: "Let's talk",
+        description: `I'm a full stack developer with passion for technology, hardware and new trends.
+
+        I'm currently working with React, Node, Angular and Firebase.`,
+        button: "Let's talk!",
     },
     skills:{
         title: "Skills",
         subtitle: "",
+    },
+    projects:{
+        title: "Projects",
+        subtitle: "",
+        technologies: "Tech stack:",
+        buttons: {
+            live: "Live",
+            code: "Code",
+        },
+        firstProject: {
+            title: "Edy Dex",
+            description: "A Pokedex-like application that allows users to search for Pokemon and view their stats, types, sprites and abilities.",
+        },
 
+        secondProject: {
+            title: "Multilanguage Portfolio",
+            description: "This portfolio is made with React and has the ability to change languages in real time.",
+        },
     },
 };

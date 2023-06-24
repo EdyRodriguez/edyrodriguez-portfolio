@@ -1,0 +1,200 @@
+.projects{
+    padding-bottom: 2rem;
+    height: 1vh;
+}
+.projects-container {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: grid;
+  gap: 2rem;
+  padding-top: 2rem;
+    padding-bottom: 2rem;
+  align-content: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+.project-image{
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.project-card {
+    text-align: center;
+    color: var(--color-text);
+    position: relative;
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    }
+
+.card-overlay {
+    transition: 0.5s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 100%;
+    max-height: 400px;
+    display: none;
+
+}
+
+.project-card:hover .card-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-size-adjust: 100%;
+    border-radius: 0.5rem;
+}
+
+.project-card:hover .card-overlay p {
+    padding: 1rem;
+}
+
+.project-card:hover .project-image{
+    filter: blur(2px);
+}
+
+.card-technologies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-button{
+    color: var(--color-text);
+    background-color: var(--color-button-bg);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.card-button:hover{
+    background-color: var(--color-button-bg-hover);
+    color: var(--color-general-hover);
+}
+
+.card-button-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card-button-code svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (max-width: 815px) {
+    .project-card{
+        min-height: 250px;
+    }
+
+    .card-overlay {
+        transition: 0.5s ease;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        height: 100%;
+        max-height: 400px;
+        display: none;
+
+    }
+
+    .project-card:hover .card-overlay{
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        text-size-adjust: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .project-card:hover .card-overlay p {
+        padding: 0;
+        margin: 5px;
+
+    }
+
+    .project-card:hover .card-overlay h2 {
+        padding: 0;
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .project-card:hover .project-image{
+        filter: blur(2px);
+    }
+
+    .card-technologies{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0;
+    }
+
+
+    .card-technologies svg{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .card-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .card-button{
+        color: var(--color-text);
+        background-color: var(--color-button-bg);
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .card-button:hover{
+        background-color: var(--color-button-bg-hover);
+        color: var(--color-general-hover);
+    }
+
+    .card-button-code{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .card-button-code svg{
+        width: 1rem;
+        height: 1rem;
+    }
+
+}
