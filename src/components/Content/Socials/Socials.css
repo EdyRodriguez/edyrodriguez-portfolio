@@ -11,7 +11,7 @@
     margin-top: 20px;
     border-radius: 150px;
     background-color: var(--color-socials-background);
-    padding: 1.5rem 1rem 1.5rem 1rem; 
+    padding: 1.5rem 1rem 1.5rem 1rem;
 }
 .social-links{
     color: var( --color-general-hover);
@@ -23,9 +23,9 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 815px) {
     .socials{
         display: none;
     }
 }
-    
+

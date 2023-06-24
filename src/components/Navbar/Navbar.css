@@ -29,7 +29,7 @@
 }
 .nav-link{
     text-decoration: none;
-    color: var(--color-text-links); 
+    color: var(--color-text-links);
 
 }
 .nav-link:hover{
@@ -90,7 +90,7 @@
     transition: .5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     .hero{
         display: flex;
         width: 100%;
@@ -115,7 +115,7 @@
     }
     .languages-list{
         flex-basis: 100px;
-        
+
     }
     .logo{
         flex-basis: 90px;
@@ -124,5 +124,5 @@
         flex-basis: 85px
     }
 }
-    
+
 
