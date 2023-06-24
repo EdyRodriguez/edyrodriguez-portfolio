@@ -1,6 +1,6 @@
 import useTranslation from "../../../customHooks/translations";
 import "./Projects.css";
-import edyDex from "../../../../assets/edyDex.png";
+import edyDex from "../../../../assets/edydex.png";
 import portfolio from "../../../../assets/portfolio.png";
 
 import { FaCss3Alt } from "react-icons/fa";
