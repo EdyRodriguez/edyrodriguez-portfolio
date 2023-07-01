@@ -37,7 +37,7 @@ export default function projects() {
               </a>
             </div>
             <div className="card-buttons">
-                <a href="https://pokedex-project-five.vercel.app/pokemon/1"  target="_blank" className="card-button">{translation.projects.buttons.live}</a>
+                <a href="https://pokedex-project-five.vercel.app"  target="_blank" className="card-button">{translation.projects.buttons.live}</a>
                 <a href="https://github.com/EdyRodriguez/pokedex_project"  target="_blank" className="card-button card-button-code">
                    <FaGithub />
                    {translation.projects.buttons.code}
@@ -68,7 +68,7 @@ export default function projects() {
                 <FaCss3Alt />
               </a>
               <a
-                href="https://github.com/https://www.typescriptlang.org/"
+                href="https://www.typescriptlang.org/"
                 className="social-links"
                 target="_blank"
                 rel="noreferrer">
