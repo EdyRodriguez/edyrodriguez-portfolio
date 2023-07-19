@@ -1,6 +1,6 @@
 .projects{
     padding-bottom: 2rem;
-    height: 1vh;
+    height: fit-content;
 }
 .projects-container {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

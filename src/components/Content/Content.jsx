@@ -4,6 +4,7 @@ import About from "./sections/About/About";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 import Socials from "./Socials/Socials";
+import Contact from "./sections/Contact/Contact";
 
 export default function Content() {
     const translation = useTranslation();
@@ -13,6 +14,7 @@ export default function Content() {
             <Skills />
             <Projects />
             <Socials/>
+            <Contact/>
         </div>
     );
 }
