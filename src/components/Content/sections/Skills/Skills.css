@@ -7,7 +7,8 @@
     display: flex;
     margin-top: 20px;
     width: 100%;
-    background-color: var(--color-skills-container-background) ;
+    background-color: var(--color-containers-background
+) ;
     border-radius: 100px;
 }
 .skill-list{

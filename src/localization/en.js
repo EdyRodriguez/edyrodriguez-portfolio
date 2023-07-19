@@ -34,4 +34,12 @@ export default {
             description: "This portfolio is made with React and has the ability to change languages in real time.",
         },
     },
+    contact:{
+        title: "Send me an Email",
+        form:{
+            name: "Name",
+            message: "Message",
+            button: "Send",
+        },
+    },
 };
