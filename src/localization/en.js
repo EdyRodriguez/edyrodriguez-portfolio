@@ -37,8 +37,8 @@ export default {
     contact:{
         title: "Send me an Email",
         form:{
-            name: "Name",
-            message: "Message",
+            name: "Name: ",
+            message: "Message: ",
             button: "Send",
         },
     },
