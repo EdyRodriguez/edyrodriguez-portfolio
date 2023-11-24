@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <section className="footer">
-            <p>This is the footer of the page.</p>
+            <p>Made by Edy Rodriguez </p>
         </section>
     );
 }
