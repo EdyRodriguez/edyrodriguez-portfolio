@@ -11,12 +11,13 @@ export default function Skills() {
           {skillsInfo.map((skill) => (
             <li key={skill.id} className="skill">
               <a
-                href="https://www.linkedin.com/in/edgar-fernando-rodriguez-rangel-261824160/"
+
                 className="social-links"
                 target="_blank"
                 rel="noreferrer">
                 {skill.icon}
               </a>
+              <p>{skill.title}</p>
             </li>
           ))}
         </ul>

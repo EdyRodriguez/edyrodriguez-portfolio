@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { FaGit } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { SiJira } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -21,11 +21,6 @@ const skillsInfo = [
     id: 1,
     title: "React",
     icon: <GrReactjs/>
-  },
-  {
-    id: 2,
-    title: "React Native",
-    icon: <TbBrandReactNative/>
   },
   {
     id: 3,
@@ -60,7 +55,7 @@ const skillsInfo = [
   {
     id: 9,
     title: "Git",
-    icon: <FaGit/>
+    icon: <FaGitAlt/>
   },
   {
     id: 10,
