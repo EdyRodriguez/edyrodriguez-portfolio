@@ -1,44 +1,51 @@
 export default {
-    navbar:{
-        about: "About",
-        contact: "Contact",
-        myCv: "CV",
-    },
-    about:{
-        title: "Hello, I'm Edgar Rodriguez",
-        subtitle: "full stack developer",
-        description: `I'm a full stack developer with passion for technology, hardware and new trends.
+  navbar: {
+    about: "About",
+    contact: "Contact",
+    myCv: "CV",
+  },
+  about: {
+    title: "Hello, I'm Edgar Rodriguez",
+    subtitle: "full stack developer",
+    description: `I'm a full stack developer with passion for technology, hardware and new trends.
 
         I'm currently working with React, Node, Angular and Firebase.`,
-        button: "Let's talk!",
+    button: "Let's talk!",
+  },
+  skills: {
+    title: "Skills",
+    subtitle: "",
+  },
+  projects: {
+    title: "Projects",
+    subtitle: "",
+    technologies: "Tech stack:",
+    buttons: {
+      live: "Live",
+      code: "Code",
     },
-    skills:{
-        title: "Skills",
-        subtitle: "",
+    firstProject: {
+      title: "Edy Dex",
+      description:
+        "A Pokedex-like application that allows users to search for Pokemon and view their stats, types, sprites and abilities.",
     },
-    projects:{
-        title: "Projects",
-        subtitle: "",
-        technologies: "Tech stack:",
-        buttons: {
-            live: "Live",
-            code: "Code",
-        },
-        firstProject: {
-            title: "Edy Dex",
-            description: "A Pokedex-like application that allows users to search for Pokemon and view their stats, types, sprites and abilities.",
-        },
 
-        secondProject: {
-            title: "Multilanguage Portfolio",
-            description: "This portfolio is made with React and has the ability to change languages in real time.",
-        },
+    secondProject: {
+      title: "Loyalty App for Twitch User",
+      description:
+        "This is a loyalty store, connected with twitch and a backend to give and validate tokens",
     },
-    contact:{
-        title: "Send me an Email",
-        name: "Name: ",
-        email: "email: ",
-        message: "Menssage: ",
-        submit: "Submit",
+    thirdProject: {
+      title: "Loyalty App API",
+      description:
+        "Node.js and Express project integrating with Twitch API and Firebase for user validation and registration, utilizing JWT for token encryption/decryption.",
     },
+  },
+  contact: {
+    title: "Send me an Email",
+    name: "Name: ",
+    email: "email: ",
+    message: "Menssage: ",
+    submit: "Submit",
+  },
 };
