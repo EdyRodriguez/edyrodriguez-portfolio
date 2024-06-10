@@ -35,10 +35,9 @@ export default {
     },
     contact:{
         title: "Enviame un Email",
-        form:{
-            name: "Nombre: ",
-            message: "Mensaje: ",
-            button: "Enviar",
-        },
+        name: "Nombre: ",
+        email: "email: ",
+        message: "Mensaje: ",
+        submit: "Enviar",
     },
 };

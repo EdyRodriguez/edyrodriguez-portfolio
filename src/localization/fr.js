@@ -33,12 +33,12 @@ export default {
             description: "Ce portfolio est réalisé avec React et a la capacité de changer de langue en temps réel",
         },
     },
+
     contact:{
         title: "Envoyez moi un Email",
-        form:{
-            name: "Nom: ",
-            message: "Message: ",
-            button: "Envoyer",
-        },
+        name: "Nom: ",
+        email: "email: ",
+        message: "Message: ",
+        submit: "Envoyer",
     },
 };
