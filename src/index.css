@@ -18,3 +18,6 @@
     background-color: #1d1d1f;
     font-family: 'Roboto', sans-serif;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
